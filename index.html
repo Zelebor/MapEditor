@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Редактор карт для DnD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="map" id="map"></div>
+    <div class="sidebar" id="sidebar">
+      <h3>Спрайты</h3>
+      <div class="category">
+        <h4>Союзники</h4>
+        <div class="sprites" id="allies"></div>
+      </div>
+      <div class="category">
+        <h4>Декорации</h4>
+        <div class="sprites" id="decorations"></div>
+      </div>
+      <div class="category">
+        <h4>Враги</h4>
+        <div class="sprites" id="enemies"></div>
+      </div>
+      <input type="file" id="upload-sprite" accept="image/*">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
